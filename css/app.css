@@ -1,0 +1,61 @@
+body
+{
+    background: rgb(0,204,87);
+    background: linear-gradient(90deg, rgba(0,204,87,1) 0%, rgba(18,166,115,0.9962359943977591) 35%, rgba(0,255,169,1) 100%);
+display: flex;
+flex-direction: column;
+align-items: center;
+align-content: center;
+}
+
+#social-menu
+{
+    float: left;
+    height: 100%;
+    background: rgba(255, 255, 255, .4);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 300px;
+}
+
+#social-menu-subcontainer
+{
+    height: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+}
+
+.profile-picture
+{
+    border-radius: 50%;
+    height: 150px;
+}
+
+.prueba
+{
+    margin: auto auto;
+    height: 100vh;
+    width: 100%;
+    background: rgba(255, 255, 255, .4);
+}
+
+.mobile-container
+{
+    background: rgba(255, 255, 255, .4);
+    height: 100vh;
+    width: 100%;
+}
+
+ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list-group-item
+{
+    background: rgba(255, 255, 255, .45);
+}
